@@ -1,0 +1,14 @@
+#include <iostream>
+#include <math.h>
+
+using namespace std;
+
+int ()
+{
+  int x1, y1, x2, y2, distancia;
+  cout << "Digite duas coordenadas (x1 y1 x2 y2)" << endl;
+  cin >> x1 >> y1 >> x2 >> y2;
+  distancia = sqrt (pow(x2 - x1, 2) + pow(y2 - y1, 2));
+  cout << "Distancia" << distancia << endl;
+  return 0;
+}
